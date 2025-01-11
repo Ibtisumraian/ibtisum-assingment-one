@@ -285,9 +285,10 @@ body{
 }
 /* section 3 starts */
 .section-3{
+    height: 1800px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
    
 }
@@ -399,6 +400,7 @@ body{
     font-weight: 600px;
     line-height: 22px;
     margin-top: 24px;
+    cursor: pointer;
     
 }
 /* box2 */
@@ -414,4 +416,87 @@ body{
 .marg2{
     margin-left: 0px;
     margin-right: 80px;
+}
+/* footer starts */
+.foot-head{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    margin: 80px 0px;
+}
+.head-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot .head-text h1{
+    color: rgb(14, 14, 14);
+    flex-direction: row-reverse;
+    font-family: "Work Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.foot .head-text p{
+    color: rgba(14, 14, 14, 0.7);
+    flex-direction: row-reverse;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    width: 1104px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.all-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.amount-box{
+    width: 240px;
+    height: 128px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px;
+}
+.amount-box .amount p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Work Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.input{
+    width: 1100px;
+    height: 64px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input .put-amount{
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Work Sans", serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 24px;
+    border: none;
+}
+.hov1:hover{
+    transition: 0;
+    background-color: rgb(198, 228, 214);
 }
