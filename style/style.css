@@ -635,14 +635,17 @@ body{
     background-image: url(../assets/facebook.png);
     width: 25px;
     height: 24px;
+    cursor: pointer;
 }
 .foot-img .img2{
     background-image: url(../assets/instagram.png);
     width: 25px;
     height: 24px;
+    cursor: pointer;
 }
 .foot-img .img3{
     background-image: url(../assets/x.png);
     width: 25px;
     height: 24px;
+    cursor: pointer;
 }
